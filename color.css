@@ -11,7 +11,12 @@
 }
 body{
     color: #0E0E0E;
-    background-color: #F1F1F3;
+    background-color: rgba(241, 241, 243, 1);
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;  
 }
 
 
@@ -78,7 +83,7 @@ nav>h2{
 /* vision */
 
 .vision{
-    height: 765px;
+    box-sizing: border-box;
     width: 1280px;
     margin: 0px auto;
 }
@@ -87,9 +92,6 @@ nav>h2{
     font-weight: bold;
 }
 .vision>p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     margin: 32px 0px;
     opacity: 0.7;
 }
@@ -98,8 +100,9 @@ nav>h2{
 .card-box{
     height: 325px;
     width: 1280px;
-    display: flex;
+    display: flex; 
     gap: 24px;
+    margin-bottom: 32px;
 }
 .card{
     border-radius: 16px;
@@ -145,4 +148,29 @@ nav>h2{
    background-color:rgba(255, 194, 57, 1);
 
 }
-
+.Yunus-box{
+    /* box-sizing: border-box; */
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+.inner-box{
+    padding:48px 24px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+.Yunus-box>div>p{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom :12px;
+}
+.Yunus-box>div>h3{
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom :4px;
+}
+.Yunus-box>div>.designation{
+    opacity: 0.6;
+}
