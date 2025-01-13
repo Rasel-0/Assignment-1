@@ -10,6 +10,7 @@
     padding: 0px;
 }
 body{
+    color: #0E0E0E;
     background-color: #F1F1F3;
 }
 
@@ -76,4 +77,72 @@ nav>h2{
 
 /* vision */
 
+.vision{
+    height: 765px;
+    width: 1280px;
+    margin: 0px auto;
+}
+.vision>h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.vision>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 32px 0px;
+    opacity: 0.7;
+}
+
+
+.card-box{
+    height: 325px;
+    width: 1280px;
+    display: flex;
+    gap: 24px;
+}
+.card{
+    border-radius: 16px;
+    height: 100%;
+    width: 410.67px;
+    box-sizing: border-box;
+    padding: 32px;
+}
+.card>img{
+    margin-bottom: 24px;
+}
+.card>h3{
+    margin-bottom: 12px;
+}
+.card>p{
+    height: 72px;;
+    margin-bottom: 24px;
+}
+.card>.btn{
+    color: white;
+    padding: 11px 20px;
+    font-size: 16px;
+    border: none;
+}
+.one{
+   background-color:rgba(84, 144, 245, 0.2);   
+}
+.one>.btn{
+   background-color:rgba(84, 144, 245, 1);   
+}
+
+.two{
+   background-color:rgba(198, 228, 214, 1);
+}
+.two>.btn{
+   background-color:rgba(9, 161, 92, 1);
+}
+.three{
+   background-color:rgba(247, 235, 207, 1);
+
+}
+.three>.btn{
+   background-color:rgba(255, 194, 57, 1);
+
+}
 
