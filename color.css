@@ -10,6 +10,7 @@
     padding: 0px;
 }
 body{
+    overflow-x:hidden;
     color: #0E0E0E;
     background-color: rgba(241, 241, 243, 1);
 }
@@ -398,7 +399,7 @@ nav>h2{
 }
 footer{
     background: white;
-    width: 1577px;
+    width: 1280px;
     height: 226px;
     margin: 0 auto ;
     display: flex;
