@@ -174,3 +174,59 @@ nav>h2{
 .Yunus-box>div>.designation{
     opacity: 0.6;
 }
+
+/* news  section*/
+    .news{
+        width: 1280px;
+        margin: 0 auto;
+    }
+    
+    div>.news-head{
+        font-weight: bold;
+        font-size: 40px;   
+    }
+    div>.news-des{
+        margin-top: 24px;
+        margin-bottom: 32px;
+        opacity: 0.7;
+    }
+    article{
+        box-sizing: border-box;
+        border-radius: 24px;
+        padding: 48px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        background-color: white;
+        margin-bottom: 24px;
+    }
+    .art-img>img{
+        border-radius: 24px;
+    }
+    .art-head{
+        font-size: 32px;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+    .art-logo{
+        margin: 12px 0px;
+    }
+    .art-des,.time{
+        opacity: 0.7;
+    }
+    .time{
+        margin-bottom: 12px;
+    }
+    .art>button{
+        color: white;
+        border: none;
+        font-weight: 600;
+        margin-top: 32px;
+        padding: 13px 26px;
+        background-color: rgba(0, 106, 80, 1);
+    }
+   .reverse{
+    flex-direction: row-reverse;
+   }
+
+    
